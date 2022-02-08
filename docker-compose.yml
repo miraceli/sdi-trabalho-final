@@ -1,0 +1,8 @@
+version: '3'
+services:
+  trabalho-rmi:
+    container_name: "trabalho-rmi"
+    build: .
+    working_dir: /aplication
+    restart: always
+    command: sh -c "echo 'Iniciando...' && python3 -m Pyro4.naming"
