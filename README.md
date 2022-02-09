@@ -2,6 +2,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+![Badge](https://img.shields.io/badge/Made_with-docker-%237159c1?style=for-the-badge&logo=docker&labelColor=blue&color=darkblue&logoColor=white)
+
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 
@@ -12,7 +14,6 @@ O objetivo é implementar uma simples Interface de Objetos Remotos (RMI) que usa
 
 - [x] Envio de mensagens
 - [x] Lista de mensagens enviadas
-- [x] Conversor para maiúsculas
 
 
 ### Pré-requisitos
@@ -28,8 +29,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 As seguintes ferramentas foram usadas no projeto:
 
-- [Python]
-- [VSCode]
+- [VSCode](https://code.visualstudio.com/)
 - [Windows Terminal](https://www.microsoft.com/pt-br/p/windows-terminal/9n0dx20hk701)
 
 ### 🎲 Rodando o projeto
