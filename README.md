@@ -39,7 +39,7 @@ As seguintes ferramentas foram usadas no projeto:
 $ git clone <https://github.com/miraceli/SistemaLoginPython>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd sdi
+$ cd sdi-trabalho-final
 
 # Execute o server 
 $ sh. server.sh
