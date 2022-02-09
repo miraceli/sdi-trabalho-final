@@ -1,4 +1,4 @@
-# Trabalho RMI para Sistemas Distribuídos
+# Implementação de um Serviço utilizando Comunicação Inter-processos através de Remote Method Invocation - RMI
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
@@ -8,7 +8,8 @@
 
 
 Aplicação feita para a apersentação de trabalho final da displina de Sistemas Distribuídos da turma 2021/2 do curso de TADS da UDESC. 
-O objetivo é implementar uma simples Interface de Objetos Remotos (RMI) que usa replicação e é tolerante a falhas.
+O objetivo é implementar um serviço de echo de mensagem remota com replicação das mensagens entre servidores, como forma de garantir tolerância a falhas.
+A implementação foi realizada utilizando-se comunicação Inter-Processos por meio de RMI em linguagem Python3, com a biblioteca Pyro4.0.
 
 ### Features
 
