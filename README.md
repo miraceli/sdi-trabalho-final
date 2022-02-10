@@ -7,7 +7,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 
-Aplicação feita para a apersentação de trabalho final da displina de Sistemas Distribuídos da turma 2021/2 do curso de TADS da UDESC. 
+Aplicação feita para a apresentação de trabalho final da disciplina de Sistemas Distribuídos da turma 2021/2 do curso de TADS da UDESC. 
 O objetivo é implementar um serviço de echo de mensagem remota com replicação das mensagens entre servidores, como forma de garantir tolerância a falhas.
 A implementação foi realizada utilizando-se comunicação Inter-Processos por meio de RMI em linguagem Python3, com a biblioteca Pyro4.0.
 
