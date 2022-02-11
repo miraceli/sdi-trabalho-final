@@ -22,5 +22,5 @@ if __name__ == "__main__":
         ns = locateNS(host=RoutesConfig.HOST, port=RoutesConfig.PORT)
         uri = daemon.register(server)
         ns.register(route, uri)
-        print("Servidor ativo.")
+        print("Servidor on-line")
         daemon.requestLoop()
