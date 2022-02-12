@@ -23,8 +23,9 @@ Antes de começar, você precisa ter instalado em sua máquina as seguintes ferr
 - [Git](https://git-scm.com)
 - [Python](https://www.python.org/downloads/)
 - [Docker](https://www.docker.com/get-started)
+- [SO Linux]
  
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e um ambiente Linux. Obs: Na máquina local o aplicativo foi usado em ambiente Windows com [WSL2](https://docs.microsoft.com/pt-br/windows/wsl/install).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e um ambiente Linux. Obs: O desenvolvimento e testes desta aplicação foram criados utilizando Windows com [WSL2](https://docs.microsoft.com/pt-br/windows/wsl/install).
 
 ### 🛠 Tecnologias
 
@@ -42,13 +43,16 @@ $ git clone <https://github.com/miraceli/SistemaLoginPython>
 # Acesse a pasta do projeto no terminal/cmd
 $ cd sdi-trabalho-final
 
+# Dê permissão de execução para os programas Shell
+$ chmod +x ./server.sh
+$ chmod +x ./client.sh
+
 # Execute o server 
 $ sh. server.sh
 
 # Execute o client
 $ sh. client.sh
 ```
-
 
 
 ### 🔧 Contribuições
