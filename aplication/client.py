@@ -10,14 +10,14 @@ if __name__ == "__main__":
 
     while option != InputOptions.EXIT:
         print("\n")
-        print("{}) Enviar nova mensagem".format(InputOptions.ECHO))
+        print("{}) Nova mensagem".format(InputOptions.ECHO))
         print("{}) Listar mensagens".format(InputOptions.LIST))
         print("{}) Converter para maiúscula".format(InputOptions.UPPER))
         print("{}) Sair".format(InputOptions.EXIT))
         print("\n\n")
 
         try:
-            option = int(input('Digite uma opção: '))
+            option = int(input('Selecione uma opção: '))
 
             if option == InputOptions.ECHO:
                 os.system('clear')
@@ -37,10 +37,10 @@ if __name__ == "__main__":
 
             elif option == InputOptions.EXIT:
                 os.system('clear')
-                print('Encerrando aplicação')
+                print('Aplicação encerrada...')
 
             else:
-                print('Opção inválida')
+                print('Opção não existente')
 
         except ValueError:
             print('Opção inválida')

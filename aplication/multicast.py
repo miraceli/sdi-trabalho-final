@@ -17,7 +17,7 @@ class MultiCast:
                 conn = Proxy(servers[server])
                 conn.overwrite_messages(self._messages)
         
-        return "Message received: {}".format(message)
+        return "Mensagem recebida: {}".format(message)
 
     @property
     def get_messages(self):
