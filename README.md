@@ -43,6 +43,12 @@ $ git clone <https://github.com/miraceli/SistemaLoginPython>
 # Acesse a pasta do projeto no terminal/cmd
 $ cd sdi-trabalho-final
 
+# Inicie o Docker 
+$ sudo service docker start
+
+# Inicie a imagem Docker 
+$ docker start trabalho-rmi
+
 # Dê permissão de execução para os programas Shell
 $ chmod +x ./server.sh
 $ chmod +x ./client.sh
